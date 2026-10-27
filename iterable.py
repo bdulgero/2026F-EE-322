@@ -1,0 +1,52 @@
+l1=[1, 1, 1.1, 1+1j, None, True, "Jinrui"]
+l2=list(l1)
+print(l1)
+print(type(l1))
+print(l2)
+print(type(l2))
+print(l1[-1])
+l1[-1]="cao"
+print(l1[-1])
+t1=(1, 1, 1.1, 1+1j, None, True, "Jinrui")
+t2=tuple(t1)
+print(t1)
+print(type(t1))
+print(t2)
+print(type(t2))
+print(t1[-1])
+#t1[-1]="cao"
+s1={1, 1, 1.1, 1+1j, None, True, "Jinrui"}
+s2=set(s1)
+print(s1)
+print(type(s1))
+print(s2)
+print(type(s2))
+for x in s1:
+    print(x)
+f1=frozenset(s1)
+print(f1)
+print(type(f1))
+for x in f1:
+    print(x)
+d1={1:1, True:True,"name":"Jinrui", "age":18, "gender":"male"}
+d2=dict(d1)
+print(d1)
+print(type(d1))
+print(d2)
+print(type(d2))
+print(d1["name"])
+d1["name"]="cao"
+print(d1["name"])
+r1=range(10)
+r2=range(-1,10)
+r3=range(10,1,-2)
+print(r1)
+print(type(r1))
+print(r2)
+print(type(r2))
+print(r3)
+print(type(r3))
+print(r1[1])
+print(r2[1])
+print(r3[1])
+#r1[1]=2
